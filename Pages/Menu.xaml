@@ -1,0 +1,45 @@
+﻿<Page x:Class="Sudoku.Pages.Menu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Sudoku.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Menu">
+
+    <Grid Background="Moccasin">
+        <Label HorizontalAlignment="Center"
+               VerticalAlignment="Top"
+               Margin="0,70,0,0"
+               Content="Sudoku Solver"
+               FontSize="30"
+               FontWeight="Bold"
+               Foreground="Wheat"
+               Background="Brown"
+               ></Label>
+        <Button HorizontalAlignment="Left"
+                VerticalAlignment="Bottom"
+                Margin="100,0,0,50"
+                Height="50"
+                Width="200"
+                Foreground="Wheat"
+                Background="Brown"
+                Content="Random Sudoku"
+                FontSize="25"
+                BorderBrush="Black"
+                Click="Random"></Button>
+        <Button HorizontalAlignment="Right"
+                VerticalAlignment="Bottom"
+                Margin="0,0,100,50"
+                Height="50"
+                Width="200"
+                Foreground="Wheat"
+                Background="Brown"
+                Content="Own Sudoku"
+                FontSize="25"
+                BorderBrush="Black"
+                Click="Own"></Button>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden"></Frame>
+    </Grid>
+</Page>

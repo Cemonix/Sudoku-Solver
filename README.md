@@ -1,6 +1,6 @@
 # Sudoku-Solver
  Program which solves Sudoku.
  
- Sudoku can be randomly generated or written by a user.
+ Sudoku can be randomly generated or written by a user. Algorithm used in a project --> **backtracking**.
 
-**App is still under development. You might find some issues.**
+**This is my first project so you can find some bugs.**
